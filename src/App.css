@@ -83,3 +83,28 @@
     background-color: #152127;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+  .container{
+    flex-direction: column;
+  }
+
+  .left{
+    display: none;   
+  }
+
+  .right{
+    width: 100%;
+  }
+
+  .right h2{
+    margin-left: 0;  
+    text-align: center;
+  }
+
+  .right input,
+  .right button{
+    width: 85%;
+  }
+}
+
